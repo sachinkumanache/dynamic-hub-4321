@@ -153,6 +153,64 @@
         margin-top: 450px;
         color: black;
       }
+      /* mayur styling */
+
+    .first-mr-m {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 40px;
+      font-size: larger;
+      font-weight: 600;
+
+    }
+
+    .first-mr-m>.line-d {
+      background-color: rgb(227, 38, 70);
+      margin: 10px;
+      height: 2px;
+      width: 30px;
+    }
+
+    .second-mr-m {
+      /* trbl */
+      margin: 40px;
+    }
+
+    #c-box {
+      border-radius: 20px;
+    }
+
+    /* styles-after-carousel*/
+
+    .third-mr-m {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 40px;
+      font-size: larger;
+      font-weight: 600;
+    }
+
+    .third-mr-m>.line-d {
+      background-color: rgb(227, 38, 70);
+      margin: 10px;
+      height: 2px;
+      width: 30px;
+    }
+
+    .fourth-mr-m {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin: 40px;
+    }
+
+    .fourth-mr-m>.item-mr-m>img {
+      width: 600px;
+      border-radius: 10px;
+
+    }
     </style>
 </head>
 
@@ -410,11 +468,11 @@
         <span class="visually-hidden">Previous</span>
       </button>
         <button style="background-color: gray;height:50px;width:50px;top:60%;right:5% ;border-radius:50%" class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-
     <!-- next section -->
 
     <div class="next_section">
@@ -816,18 +874,72 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
     <!-- mayur -->
+
+  <div class="first-mr-m">
+    <div class="line-d"></div><span>NEWLY LAUNCHED</span>
+    <div class="line-d"></div>
+  </div>
+
+  <div class="second-mr-m">
+
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+
+      <div id="c-box" class="carousel-inner">
+        <div id="c-1" class="carousel-item active">
+          <img
+            src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fd32baadbbpueqt.cloudfront.net%2FHomepage%2F7a6f082b-d4ba-4b93-93b7-aa79cc63d877.jpg&w=1920&q=75"
+            class="d-block w-100" alt="click to shop">
+        </div>
+        <div id="c-2" class="carousel-item">
+          <img
+            src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fd32baadbbpueqt.cloudfront.net%2FHomepage%2F36ceb388-0c68-47be-b39d-c893aa6caed9.jpg&w=1920&q=75"
+            class="d-block w-100" alt="click to shop">
+        </div>
+        <div id="c-3" class="carousel-item">
+          <img
+            src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fd32baadbbpueqt.cloudfront.net%2FHomepage%2F3475b8ea-ac02-4974-9557-dbe64dd2439a.gif&w=1920&q=75"
+            class="d-block w-100" alt="click to shop">
+        </div>
+      </div>
+
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">next</span>
+       </button>
+      
+    </div>
+
+  <div class="third-mr-m">
+    <div class="line-d"></div><span>THIS OR THAT</span>
+    <div class="line-d"></div>
+  </div>
+
+
+  <div class="fourth-mr-m">
+    <div class="item-mr-m"><img
+        src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fd32baadbbpueqt.cloudfront.net%2FHomepage%2Fc9a1eb8f-2529-413f-8cfc-65d917bfa55f.jpg&w=1920&q=75"
+        alt="click on me"></div>
+    <div class="item-mr-m"><img
+        src="https://in.sugarcosmetics.com/_next/image?url=https%3A%2F%2Fd32baadbbpueqt.cloudfront.net%2FHomepage%2F89f6fb1d-4e97-4531-8b15-e9465ff67e9c.jpg&w=1920&q=75"
+        alt="click on me"></div>
+  </div>
     <!-- bhavesh -->
 </body>
 
