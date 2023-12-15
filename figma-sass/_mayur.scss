@@ -1,1 +1,14 @@
+.box1-mr-m{
+    display: flex;
+    .item-1-mr-m{
+        width: 889px;
+        height: 500px;
+    }
+
+    .item-2-mr-m{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
 @media all and (max-width:375) {}
