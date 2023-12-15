@@ -1,5 +1,54 @@
-@media all and (max-width:375) {
-    
-
-
+.first_box {
+    background-color: #434CCC;
+    height: 480px;
+    width: 100%;
+    top: 2608px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .tag_akash {
+        width: 324px;
+        height: 64px;
+        font-size: 56px;
+        top: 2684px;
+        left: 557px;
+        color: white;
+        line-height: 64px;
+        font-weight: 400;
+        text-align: center;
+    }
+    .tag_01_akash {
+        width: 770px;
+        height: 83px;
+        top: 2777px;
+        left: 335px;
+        color: white;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        text-align: center;
+        margin-top: 23px;
+    }
+    .bumber_boxes {
+        p:nth-child(1) {
+            font-size: 72px;
+            text-align: center;
+            color: white;
+            line-height: 82px;
+        }
+        p:nth-child(2) {
+            color: gray;
+            text-align: center;
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+    .numbers {
+        display: flex;
+        gap: 174px;
+        margin-top: 35px;
+    }
 }
+
+@media all and (max-width:375) {}
