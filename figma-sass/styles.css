@@ -1347,6 +1347,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
 }
 
 #container-bp {
@@ -1358,7 +1359,7 @@
   position: relative;
   height: 352px;
   width: 1440px;
-  background: #FFDD78;
+  background-color: #FFDD78;
 }
 #container-bp #upper-div-bp :first-child {
   width: 107px;
@@ -1633,7 +1634,8 @@
   #container-bp #upper-div-bp {
     position: relative;
     height: 480px;
-    background: #FFDD78;
+    width: 375px;
+    background-color: #FFDD78;
   }
   #container-bp #upper-div-bp :first-child {
     width: 107px;
